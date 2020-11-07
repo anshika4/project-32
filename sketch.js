@@ -174,6 +174,8 @@ function mouseReleased(){
 function keyPressed(){
 	if(keyCode===32){
 		rope1.attach(polygon.body);
+		  Matter.Body.setPosition(polygon.body,{x:300,y:200});
+
 	}
 }
 
